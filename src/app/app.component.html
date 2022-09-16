@@ -1,23 +1,37 @@
-<div class="center">
-  <p-card header="Inputs with nui-labeled" [style]="{'width.px': 400}">
-    <div class="flex flex-column" style="gap: 12px">
-      <nui-labeled label="Mandatory Textfield">
-        <input pInputText/>
-      </nui-labeled>
-      <nui-labeled label="Mandatory with Description" description="Description text">
-        <input pInputText/>
-      </nui-labeled>
-      <nui-labeled label="Field without description">
-        <input pInputText/>
-      </nui-labeled>
+<div class="content">
+  <div class="center">
+    <img src="assets/Logo_NOVENTI_HealthCare.svg" alt="logo">
+    <p-card header="Inputs with nui-labeled" [style]="{'width.px': 400}">
+      <div class="flex flex-column" style="gap: 12px">
+        <nui-labeled label="Mandatory Textfield">
+          <input pInputText/>
+        </nui-labeled>
+        <nui-labeled label="Mandatory with Description" description="Description text">
+          <input pInputText/>
+        </nui-labeled>
+        <nui-labeled label="Field without description">
+          <input pInputText/>
+        </nui-labeled>
 
-      <nui-labeled label="Field with left icon" leftIconClass="nui-icon icon-files-search">
-        <input pInputText/>
-      </nui-labeled>
-      <nui-labeled label="Field with left icon" rightIconClass="nui-icon icon-files-search">
-        <input pInputText/>
-      </nui-labeled>
-    </div>
-    <button type="button" pButton pRipple label="Click me"></button>
-  </p-card>
+        <nui-labeled label="Field with left icon" leftIconClass="nui-icon icon-files-search">
+          <input pInputText/>
+        </nui-labeled>
+        <nui-labeled label="Field with left icon" rightIconClass="nui-icon icon-files-search">
+          <input pInputText/>
+        </nui-labeled>
+      </div>
+      <div class="space-between">
+        <button type="button" pButton pRipple label="Click me"></button>
+        <button type="button" pButton pRipple label="Click"></button>
+      </div>
+    </p-card>
+  </div>
+  <img src="assets/doctors.svg" alt="doctors" id="doctors-logo">
 </div>
+<footer>
+  <div class="versions">
+    <span>Project Angular CLI: 13.0.4</span>
+    <span>Project NPM Version: 6.14.8</span>
+    <span>Author: <strong>Ghinea Alin</strong></span>
+  </div>
+</footer>

@@ -5,6 +5,9 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ButtonModule } from 'primeng/button';
 import { RippleModule } from 'primeng/ripple';
+import { CardModule } from 'primeng/card';
+import { NuiLabeledModule } from '@de.noventi/nui';
+import { InputTextModule } from 'primeng/inputtext';
 
 @NgModule({
   declarations: [
@@ -14,7 +17,10 @@ import { RippleModule } from 'primeng/ripple';
     BrowserModule,
     AppRoutingModule,
     ButtonModule,
-    RippleModule
+    RippleModule,
+    CardModule,
+    NuiLabeledModule,
+    InputTextModule
   ],
   providers: [],
   bootstrap: [AppComponent]

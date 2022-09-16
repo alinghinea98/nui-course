@@ -1,1 +1,23 @@
-<button type="button" pButton pRipple label="Click me"></button>
+<div class="center">
+  <p-card header="Inputs with nui-labeled" [style]="{'width.px': 400}">
+    <div class="flex flex-column" style="gap: 12px">
+      <nui-labeled label="Mandatory Textfield">
+        <input pInputText/>
+      </nui-labeled>
+      <nui-labeled label="Mandatory with Description" description="Description text">
+        <input pInputText/>
+      </nui-labeled>
+      <nui-labeled label="Field without description">
+        <input pInputText/>
+      </nui-labeled>
+
+      <nui-labeled label="Field with left icon" leftIconClass="nui-icon icon-files-search">
+        <input pInputText/>
+      </nui-labeled>
+      <nui-labeled label="Field with left icon" rightIconClass="nui-icon icon-files-search">
+        <input pInputText/>
+      </nui-labeled>
+    </div>
+    <button type="button" pButton pRipple label="Click me"></button>
+  </p-card>
+</div>
